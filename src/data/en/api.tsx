@@ -401,8 +401,7 @@ export default {
           <p>
             <b className={typographyStyles.note}>Note:</b> If you have multiple
             radio inputs with the same name, you need to register the validation
-            to the last input so the hook knows to validate them as a group at
-            the end.
+            on all the radio inputs.
           </p>
         </>
       ),
